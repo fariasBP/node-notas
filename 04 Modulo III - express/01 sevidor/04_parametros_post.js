@@ -25,7 +25,7 @@
 		
 	}).listen(5500)
 
-// Leer POST con ExpressJs
+// Leer POST con ExpressJs - req.body
 
 	const express = require('express');
 	const app = express();

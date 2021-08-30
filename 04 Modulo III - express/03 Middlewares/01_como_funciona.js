@@ -1,4 +1,4 @@
-/*
+/* COMO FUNCIONA LOS MIDDLEWARES
 	Una middleware son funcionalidades que ayudan al programa en distintas tareas. por lo tanto
 	empiezan a trabajar antes que el programa;
 */
