@@ -35,9 +35,10 @@
 				- skipVersioning: objeto - rutas para excluir del control de versiones
 				-> timestamps: de tipo Object|Boolean - defaults to . Si es true, Mongoose agrega dos propiedades "createdAt" y "updatedAt", que indican la fecha de creacion del documento y fecha de actualizacion del documento, respectivamente.
 				- storeSubdocValidationError: boolean - El valor predeterminado es true. Si es false, Mongoose ajustará los errores de validación en subtrazados de documento anidado único en un único error de validación en la ruta de acceso del subdoc anidado único.
-
+		- model>>> crea la colleccion atrave del schema.
 	SINTAXIS:
 		- new Schema(<Object|Schema|Array definition>, <Object options?>):schema<T>
+		- model(<String collectionName>, <Schema schema>)
 */
 
 

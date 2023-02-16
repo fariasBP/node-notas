@@ -5,8 +5,8 @@
 			- id >>> de tipo Object|int|String, valor que indica el _id del documento a actualizar
 			- update >>> de tipo Object, valores que ser actualizaran del documento.
 			- options? >>> opciones de la consulta.
-				- new=false >>> de tipo Boolean, si es false devolvera el documento antes de la acutalizaracion, si es true lo contrario a lo ya mencionado.
+				- new=false >>> de tipo Boolean, si es false devolvera el documento antes de la acutalizaracion, si es true devolvera el documento despues de la actualizacion.
 */
 
 	const updatedProduct = await ProductsModel.findByIdAndUpdate(req.params.productId, req.body, {new: true})
-  res.status(200).json(updatedProduct)
+	  res.status(200).json(updatedProduct)

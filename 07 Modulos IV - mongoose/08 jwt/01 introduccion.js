@@ -1,0 +1,7 @@
+/*
+
+- Instalar:
+	npm i jsonwebtoken 
+
+
+*/

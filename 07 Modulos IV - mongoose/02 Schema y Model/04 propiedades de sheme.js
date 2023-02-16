@@ -5,6 +5,7 @@
 	- default >>> de tipo Any, establece datos por defecto en caso de que este no llene (este vacio).
 	- unique >>> de tipo Boolean, establece que los datos sean unicos en la coleccion.
 	- trim >>> de tipo Boolean, de ser true se eliminaran los espacios del principio y final del dato (si es que tiene).
+	- inmutable >>> Mongoose le impide cambiar las rutas inmutables a menos que el documento primario tenga .isNew: true
 SINTAXIS:
 	- [campo]{
 		type: [String, Int, Boolean ...],
@@ -12,5 +13,6 @@ SINTAXIS:
 		default?: [any],
 		unique?: [Boolean],
 		trim?: [Boolean],
+		inmutable?: [Boolean]
 	}
 */

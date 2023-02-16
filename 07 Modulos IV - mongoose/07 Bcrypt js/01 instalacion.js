@@ -1,0 +1,6 @@
+/*
+
+	instalacion
+		- npm i bcrypt
+
+*/

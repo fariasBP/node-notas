@@ -15,3 +15,16 @@ app.get('/user/:id', (req, res) => { // imaginando que se solicito: localhost:55
 	*/
 	res.send('Peticion GET recibida')
 })
+
+
+//get query&params in express
+
+//etc. example.com/user/000000?sex=female
+
+app.get('/user/:id', function(req, res) {
+
+  const query = req.query;// query = {sex:"female"}
+
+  const params = req.params; //params = {id:"000000"}
+
+})

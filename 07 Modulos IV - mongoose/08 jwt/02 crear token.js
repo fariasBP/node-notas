@@ -30,7 +30,7 @@
 
 // forma sincrona
 	const token = jwt.sign({id: user._id}, config.SECRET, {
-  	expiresIn: 24 * 60 * 60 // 1 dia
+  	expiresIn: 1 * 24 * 60 * 60 // 1 dia
   })
 
 // forma asincrona
